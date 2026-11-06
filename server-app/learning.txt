@@ -1,0 +1,9 @@
+For typescript:
+1. npm i typescript -D
+2. ts config: npx tsc --init
+3. add types for each packages: npm i @types/express @types/cors -D
+4. Set up server in tsc (build and start)
+5. Set up Nodemon with nodemon.json file
+        --> npm i ts-node -D   --for older ts version like 5
+     npm i tsx -D  --for newer and modern (recommended)
+     set up and run dev (completed)
